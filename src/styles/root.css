@@ -1,0 +1,95 @@
+:root {
+	/* TYPOGRAPHY */
+	--text-xs: 8px;
+	--text-sm: 12px;
+	--text-base: 14px;
+	--text-button: 14px;
+	--text-md: 16px;
+	--text-lg: 24px;
+	--text-xl: 32px;
+
+	/* FONT WEIGHT */
+	--fw-light: 300;
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-bold: 700;
+	--fw-black: 800;
+
+	/* COLORS */
+	--color-yellow: #fcc61e;
+	--color-yellow-light: #fff6da;
+	--color-blue: #3975ec;
+	--color-blue-dark: #16284c;
+	--color-blue-light: #e4e9f5;
+	--color-purple-dark: #474f74;
+	--color-red: #fa4c4c;
+	--color-green: #06ad0c;
+	--color-orange: #ff7a00;
+
+	/* SHADES */
+	--color-white: white;
+	--color-black: #000000;
+	--color-shade-100: #ffffff;
+	--color-shade-200: #efefef;
+	--color-shade-400: #777777;
+
+	/* ALPHAS */
+	--color-alpha-100: rgba(0, 0, 0, 0.3);
+
+	/* COLOR REFRENCES */
+	--color-primary: var(--color-blue);
+	--color-secondary: var(--color-purple-dark);
+	--color-background: var(--color-shade-200);
+	--color-text-muted: #bdbdbd;
+	--color-text-muted-s2: #808080;
+
+	--color-line: var(--color-alpha-100);
+
+	--color-body-important: var(--color-black);
+	--color-body: var(--color-shade-400);
+	--color-heading: var(--color-black);
+	--color-link: var(--color-blue);
+
+	/* BORDER RADIUS */
+	--br-sm: 5px;
+	--br-md: 10px;
+	--br-lg: 15px;
+	--br-xl: 25px;
+
+	--br-card: var(--br-xl);
+	--br-button: var(--br-md);
+
+	/* SHADOWS */
+	--shadow-100: 0px 5px 10px rgba(0, 0, 0, 0.15);
+	--shadow-200: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	--shadow-300: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	--shadow-400: 0px 0px 15px rgba(0, 0, 0, 0.25);
+	--shadow-500: 0px 0px 25px rgba(0, 0, 0, 0.25);
+	--shadow-600: 0px 0px 15px rgba(22, 40, 76, 0.5);
+
+	--shadow-badge: var(--shadow-100);
+	--shadow-card: var(--shadow-200);
+	--shadow-button: var(--shadow-300);
+	--shadow-joined-button: var(--shadow-400);
+	--shadow-bar: var(--shadow-500);
+	--shadow-card-2: var(--shadow-600);
+
+	/* GRADIENTS */
+	--gradient-blue: linear-gradient(180deg, #474f74 0%, #16284c 100%);
+
+	/* SPACING */
+	--space-4xs: 2px;
+	--space-3xs: 4px;
+	--space-2xs: 8px;
+	--space-xs: 16px;
+	--space-sm: 24px;
+	--space-md: 32px;
+	--space-lg: 40px;
+	--space-xl: 56px;
+	--space-2xl: 64px;
+	--space-3xl: 72px;
+	--space-4xl: 80px;
+	--space-5xl: 88px;
+	--space-6xl: 160px;
+	--space-7xl: 216px;
+}
